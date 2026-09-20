@@ -13,5 +13,6 @@ with st.form("rgs_form"):
     Email = st.text_input("Email",placeholder="Enter Your Email")
     password = st.text_input(
         "Password",
-        type="password"
+        type="password",
+        placeholder="Enter Your Password"
     )

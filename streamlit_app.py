@@ -20,3 +20,6 @@ with st.form("rgs_form"):
         "Country",
         ["India", "USA", "UK", "Canada", "Australia", "Other"]
     )
+    sub = st.form_submit_button(
+        "Submit"
+    )

@@ -16,3 +16,7 @@ with st.form("rgs_form"):
         type="password",
         placeholder="Enter Your Password"
     )
+    country = st.selectbox(
+        "Country",
+        ["India", "USA", "UK", "Canada", "Australia", "Other"]
+    )
